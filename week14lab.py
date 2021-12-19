@@ -91,8 +91,7 @@ while True:
 	emptylist.append(employeeInfo)
 
 	option = input("Do you want to continue? Y|N: ").lower()
-	if option == "y":
+	if option == "n":
 		break
-
 print(emptylist)
 
